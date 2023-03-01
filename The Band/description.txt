@@ -1,8 +1,12 @@
-Những thành phần thường gặp
+All parts in this website
+
 1> Header
-2> navigation (phần điều hướng)
-3> Breadcrumb
-4> sidebar
-5> Slider:
-6> Footer (Chân trang)
-7> content
+2> Navigation (Home, Band, Tour, Contact)
+3> Content
+- About us section
+- Tour dates section
+- COntact section
+4> Modal window (when click on "buy tickets" button)
+5> Slider (Substituted by a img)
+6> Footer 
+
