@@ -1,0 +1,8 @@
+Những thành phần thường gặp
+1> Header
+2> navigation (phần điều hướng)
+3> Breadcrumb
+4> sidebar
+5> Slider:
+6> Footer (Chân trang)
+7> content
