@@ -10,3 +10,9 @@ All parts in this website
 5> Slider (Substituted by a img)
 6> Footer 
 
+
+Mobile: <740px
+
+Tablet: > 740px va <=1024px
+
+pC: >1024px

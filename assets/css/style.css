@@ -31,12 +31,11 @@ html{
 .mt-24{
     margin-top: 24px !important;
 }
-
-
-.row{
-    margin-left: -4px;
-    margin-right: -15px;
-}
+/* 
+.row {
+    margin-left: -2px;
+    margin-right: -20px;
+} */
 
 .col{
     float: left;
@@ -52,7 +51,7 @@ html{
 }
 
 .col-third{
-    width: 32%;
+    width: 32.73%;
 }
 
 
@@ -66,6 +65,7 @@ html{
     top: 0;
     z-index: 10;
 }
+
 #nav{
     position: relative;
 }
@@ -85,6 +85,7 @@ html{
      padding: 0 24px;
     font-size: 100%;
     line-height: 56px; 
+    width: 100%;
 }
 
 #nav li:hover a{
@@ -120,21 +121,25 @@ html{
     font-size: 80%;
 }
 
-#nav #search{
+#nav .nav-bars-btn,
+#search{
     display: inline;
     color: white;
     position: absolute;
     right: 0;
+    top: 0;
     line-height: 56px;
+    padding: 0 24px;
 }
-#nav #search .fa-solid{
-    padding: 12px 24px;
-}
+
 #nav #search:hover{
     background-color: red;
     cursor: pointer;
 }
 
+#nav-mobile{
+    display: none;
+}
 
 /* -------------------SLIDER------------------- */
 
@@ -152,18 +157,16 @@ html{
 }
 
 #slider .pic-caption-heading{
-    font-size: 25px;
+    font-size: 150%;
     font-weight: 700;
 }
-#slider .pic-caption-des{
-    font-size:16px;
-}
+
 
 /* ------------------CONTENT------------------ */
 /* ---------------ABOUT SECTION--------------- */
 
 .content-section{
-    width: 60%;
+    width: 65%;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -173,7 +176,7 @@ html{
 .content-section .content-heading{
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 180%;
     word-spacing: 4px;
     letter-spacing: 4px;
 }
@@ -181,7 +184,7 @@ html{
     text-align: center;
     padding: 20px 0;
     font-style: italic;
-    font-size: 15px;
+    font-size: 93.75%;
     opacity: 0.6;
 
 }
@@ -194,7 +197,7 @@ html{
 /* --------- ABOUT US SECTION - IMG---- */
 
 #content .member-name{
-    padding: 20px 0;
+    padding: 15px 0;
     
 }
 #content .member-list img{
@@ -203,7 +206,6 @@ html{
     border-radius: 5px;
 }
 
-
 /* -----------------TOUR DATES----------- */
 .tour-dates{
     background-color: rgb(3, 26, 39);
@@ -211,12 +213,12 @@ html{
 
 .tickets-list {
     background-color: white;
-    margin: 50px 0;
+    margin-top: 30px;
 }
 
 .tickets-list li{
     height: 40px;
-    font-size: 15px;
+    font-size: 93.75%;
     /* text-decoration: none; */
     color: rgba(0,0,0,0.6);
     border-bottom: 0.5px solid #ddd;
@@ -269,11 +271,11 @@ html{
 }
 .tour-places .places-des{
     margin: 15px;
-    font-size: 15px;
+    font-size: 93.75%;
 }
 
 .tour-places .place-heading{
-    font-size: 15px;
+    font-size: 93.75%;
     font-weight: 300px;
 }
 .tour-places .place-time{
@@ -287,7 +289,7 @@ html{
 .buy-button{
     
     display: inline-block;
-    padding: 8px 16px;
+    padding: 12px 16px;
     margin: 10px 0;
     background-color: rgb(3, 26, 39);
     color: white;
@@ -337,7 +339,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 125%;
     color: white;
     text-transform: uppercase;
 }
@@ -383,7 +385,7 @@ html{
     height: 35px;
     background-color: rgb(28, 71, 98);
     color: white;
-    font-size: 15px;
+    font-size: 93.75%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -428,11 +430,9 @@ html{
 }
 
 .contact-content-info{
-    font-size: 18px;
+    font-size: 110%;
     line-height: 1.5;
-}
-.contact-content-form {
-    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .contact-content-form .form-control{
@@ -477,10 +477,14 @@ html{
 
 #footer .copy-right{
     color: #615f5f;
-    font-size: 15px;
+    font-size: 93.75%;
 }
 #footer .copy-right a{
     color: #615f5f;
-    font-size: 15px;
+    font-size: 93.75%;
 }
-  
+
+/* ----------------------------------- */
+
+
+

@@ -1,0 +1,88 @@
+/* ---------mobile-------------- */
+@media only screen and (max-width: 46.249em) {
+
+    .s-full-width {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    #nav .subnav a {
+        padding: 4px 40px;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #nav-mobile {
+        display: inline-block;
+    }
+
+    .nav-bars-btn:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+}
+
+/* ---------TABLET VA MOBILE---------- */
+
+@media only screen and (max-width: 64em) {
+
+    .tickets-list .sold-out {
+        padding: 4px 0px;
+        margin-left: 0px;
+    }
+
+    .content-section {
+        width: 80%;
+    }
+
+    .contact-content-form .form-control {
+        padding: 11px;
+    }
+
+
+    .contact-content-info {
+    
+        line-height: 2.0;
+
+    }
+
+    #footer .social-list img {
+        width: 44px;
+        margin: 0 6px;
+
+    }
+
+    #footer .copy-right a {
+        padding: 7px;
+        display: inline-block;
+    }
+
+    html {
+        font-size: 80%;
+    }
+}
+
+/* -------------iphone 5----------------- */
+@media only screen and (max-width: 20em) {
+    .tickets-list li {
+        font-size: 12px;
+    }
+}
